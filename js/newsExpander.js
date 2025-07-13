@@ -1,4 +1,6 @@
-// News Expander functionality
+// News Expander functionality - now opens modal instead of expanding content
+import { showNewsModal } from "./newsModal.js";
+
 export function initializeNewsExpander() {
   // Use event delegation for dynamically loaded content
   document.addEventListener("click", function (event) {
@@ -9,35 +11,15 @@ export function initializeNewsExpander() {
 }
 
 function handleReadMoreClick(button) {
-  const expandedContent = button.nextElementSibling;
-  const icon = button.querySelector(".read-more-icon");
+  // Get content from data attributes
+  const title = button.getAttribute("data-title");
+  const content = button.getAttribute("data-content");
+  const date = button.getAttribute("data-date");
+  const category = button.getAttribute("data-category");
 
-  if (
-    !expandedContent ||
-    !expandedContent.classList.contains("news-expanded")
-  ) {
-    return;
-  }
-
-  const isExpanded = button.classList.contains("expanded");
-
-  if (isExpanded) {
-    // Collapse content
-    button.classList.remove("expanded");
-    button.innerHTML = 'Read More <span class="read-more-icon">▼</span>';
-    expandedContent.classList.remove("show");
-    expandedContent.innerHTML = "";
-  } else {
-    // Expand content
-    button.classList.add("expanded");
-    button.innerHTML = 'Read Less <span class="read-more-icon">▲</span>';
-
-    // Get content from data attribute
-    const content = button.getAttribute("data-content");
-    if (content) {
-      expandedContent.innerHTML = content;
-      expandedContent.classList.add("show");
-    }
+  if (content) {
+    // Show modal with news content
+    showNewsModal(title, content, date, category, button);
   }
 }
 
@@ -47,35 +29,15 @@ export function initializeStaticNewsExpander() {
 
   readMoreButtons.forEach((button) => {
     button.addEventListener("click", function () {
-      const expandedContent = this.nextElementSibling;
-      const icon = this.querySelector(".read-more-icon");
+      // Get content from data attributes
+      const title = this.getAttribute("data-title");
+      const content = this.getAttribute("data-content");
+      const date = this.getAttribute("data-date");
+      const category = this.getAttribute("data-category");
 
-      if (
-        !expandedContent ||
-        !expandedContent.classList.contains("news-expanded")
-      ) {
-        return;
-      }
-
-      const isExpanded = this.classList.contains("expanded");
-
-      if (isExpanded) {
-        // Collapse content
-        this.classList.remove("expanded");
-        this.innerHTML = 'Read More <span class="read-more-icon">▼</span>';
-        expandedContent.classList.remove("show");
-        expandedContent.innerHTML = "";
-      } else {
-        // Expand content
-        this.classList.add("expanded");
-        this.innerHTML = 'Read Less <span class="read-more-icon">▲</span>';
-
-        // Get content from data attribute
-        const content = this.getAttribute("data-content");
-        if (content) {
-          expandedContent.innerHTML = content;
-          expandedContent.classList.add("show");
-        }
+      if (content) {
+        // Show modal with news content
+        showNewsModal(title, content, date, category, this);
       }
     });
   });

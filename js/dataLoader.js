@@ -162,11 +162,14 @@ function loadNewsContent(data) {
             <h3 class="news-title">${update.title}</h3>
             <p class="news-description">${update.description}</p>
             <div class="news-date">${update.date}</div>
-            <button class="read-more-btn" data-content="${update.fullContent}">
+            <button class="read-more-btn" 
+                    data-title="${update.title}"
+                    data-content="${update.fullContent}"
+                    data-date="${update.date}"
+                    data-category="Game Update">
               Read More
-              <span class="read-more-icon">▼</span>
+              <span class="read-more-icon">📖</span>
             </button>
-            <div class="news-expanded"></div>
           </div>
         </div>
       `
@@ -192,11 +195,14 @@ function loadNewsContent(data) {
             <h3 class="news-title">${news.title}</h3>
             <p class="news-description">${news.description}</p>
             <div class="news-date">${news.date}</div>
-            <button class="read-more-btn" data-content="${news.fullContent}">
+            <button class="read-more-btn" 
+                    data-title="${news.title}"
+                    data-content="${news.fullContent}"
+                    data-date="${news.date}"
+                    data-category="Soccer News">
               Read More
-              <span class="read-more-icon">▼</span>
+              <span class="read-more-icon">📖</span>
             </button>
-            <div class="news-expanded"></div>
           </div>
         </div>
       `

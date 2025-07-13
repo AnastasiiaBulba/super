@@ -5,6 +5,7 @@ import { initializeDataLoader } from "./dataLoader.js";
 import { initializeFormValidation } from "./formValidation.js";
 import { initializeNewsExpander } from "./newsExpander.js";
 import { initializeModal } from "./modal.js";
+import { initializeNewsModal } from "./newsModal.js";
 
 async function loadPartial(id, url) {
   const container = document.getElementById(id);
@@ -35,6 +36,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   initializeFormValidation();
   initializeNewsExpander();
   initializeModal();
+  initializeNewsModal();
 
   // Add smooth scrolling for anchor links
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {

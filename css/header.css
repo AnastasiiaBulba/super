@@ -139,7 +139,7 @@
 .nav-link {
   color: var(--text-white);
   font-weight: 600;
-  text-decoration: none;
+  text-decoration: underline;
   transition: all var(--transition-fast);
   position: relative;
   padding: var(--spacing-sm) var(--spacing-md);
