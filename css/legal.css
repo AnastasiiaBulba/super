@@ -1,0 +1,212 @@
+/* Legal Pages Styles */
+
+/* Legal Content */
+.legal-content {
+  background: var(--bg-secondary);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  padding: var(--spacing-3xl) var(--spacing-2xl);
+  margin: var(--spacing-3xl) auto;
+  max-width: 900px;
+  border: 2px solid var(--primary-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.legal-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-dark) 100%
+  );
+}
+
+.legal-title {
+  font-size: var(--font-size-4xl);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-2xl);
+  text-align: center;
+  position: relative;
+}
+
+.legal-title::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-dark) 100%
+  );
+  border-radius: var(--radius-sm);
+}
+
+.legal-section {
+  margin-bottom: var(--spacing-2xl);
+  background-color: var(--bg-card);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  border-left: 4px solid var(--primary-color);
+  transition: all var(--transition-fast);
+}
+
+.legal-section:hover {
+  transform: translateX(4px);
+  box-shadow: var(--shadow-md);
+}
+
+.legal-section h2 {
+  font-size: var(--font-size-2xl);
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: var(--spacing-lg);
+  border-bottom: 2px solid var(--border-light);
+  padding-bottom: var(--spacing-sm);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.legal-section h2::before {
+  content: "⚽";
+  font-size: var(--font-size-lg);
+}
+
+.legal-section h3 {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.legal-section h3::before {
+  content: "🏆";
+  font-size: var(--font-size-base);
+}
+
+.legal-section p {
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: var(--spacing-md);
+}
+
+.legal-section ul {
+  margin-bottom: var(--spacing-md);
+  list-style: none;
+  padding: 0;
+}
+
+.legal-section li {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-sm);
+  padding-left: var(--spacing-lg);
+  position: relative;
+  transition: color var(--transition-fast);
+}
+
+.legal-section li:hover {
+  color: var(--text-primary);
+}
+
+.legal-section li::before {
+  content: "⚽";
+  color: var(--primary-color);
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: var(--font-size-sm);
+}
+
+.legal-section strong {
+  color: var(--text-primary);
+  font-weight: 600;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-dark) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.legal-footer {
+  margin-top: var(--spacing-3xl);
+  padding-top: var(--spacing-xl);
+  border-top: 2px solid var(--border-light);
+  text-align: center;
+  color: var(--text-light);
+  font-size: var(--font-size-sm);
+  background-color: var(--bg-card);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.legal-footer p {
+  margin-bottom: var(--spacing-xs);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .legal-content {
+    padding: var(--spacing-2xl) var(--spacing-md);
+    margin: var(--spacing-xl) var(--spacing-md);
+  }
+
+  .legal-title {
+    font-size: var(--font-size-3xl);
+  }
+
+  .legal-section h2 {
+    font-size: var(--font-size-xl);
+  }
+
+  .legal-section h3 {
+    font-size: var(--font-size-lg);
+  }
+
+  .legal-section {
+    padding: var(--spacing-lg);
+  }
+}
+
+@media (max-width: 360px) {
+  .legal-content {
+    padding: var(--spacing-xl) var(--spacing-sm);
+    margin: var(--spacing-lg) var(--spacing-sm);
+  }
+
+  .legal-title {
+    font-size: var(--font-size-2xl);
+  }
+
+  .legal-section h2 {
+    font-size: var(--font-size-lg);
+  }
+
+  .legal-section h3 {
+    font-size: var(--font-size-base);
+  }
+
+  .legal-section {
+    padding: var(--spacing-md);
+  }
+}

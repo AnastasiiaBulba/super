@@ -1,0 +1,168 @@
+{
+  "hero": {
+    "title": "Super Kick 3D: World Cup",
+    "description": "Experience the thrill of soccer in this exciting 3D football game! Test your skills on your own playing field, master the art of kicking the ball into the goal while avoiding the goalkeeper. Are you ready to become a soccer champion?",
+    "buttonText": "Play Now"
+  },
+  "features": [
+    {
+      "icon": "⚽",
+      "title": "3D Soccer Experience",
+      "description": "Immerse yourself in realistic 3D soccer gameplay with stunning graphics and smooth animations that bring the beautiful game to life."
+    },
+    {
+      "icon": "🎯",
+      "title": "Precision Kicking",
+      "description": "Master the art of precision kicking with intuitive controls that let you aim, power, and curve your shots with perfect accuracy."
+    },
+    {
+      "icon": "🏆",
+      "title": "World Cup Challenge",
+      "description": "Compete in World Cup-style tournaments and prove your skills against challenging goalkeepers and increasingly difficult levels."
+    },
+    {
+      "icon": "🎮",
+      "title": "Skill-Based Gameplay",
+      "description": "Develop your soccer skills through practice and strategy. Each level presents new challenges that test your timing and technique."
+    },
+    {
+      "icon": "🌟",
+      "title": "Multiple Modes",
+      "description": "Enjoy various game modes including practice sessions, tournament play, and skill challenges to keep the excitement fresh."
+    },
+    {
+      "icon": "🏅",
+      "title": "Achievement System",
+      "description": "Unlock achievements and rewards as you progress, track your improvement, and compete for the highest scores."
+    }
+  ],
+  "howToPlay": [
+    {
+      "title": "Basic Controls",
+      "description": "Learn the fundamental controls to master the art of soccer kicking and scoring goals.",
+      "steps": [
+        "Click and drag to aim your shot",
+        "Hold to adjust power level",
+        "Release to kick the ball",
+        "Use curve and spin for advanced shots"
+      ]
+    },
+    {
+      "title": "Game Objectives",
+      "description": "Understand your goals and how to achieve the highest scores in each level.",
+      "steps": [
+        "Score goals by getting past the goalkeeper",
+        "Complete levels within time limits",
+        "Achieve high accuracy ratings",
+        "Unlock new stadiums and challenges"
+      ]
+    },
+    {
+      "title": "Advanced Techniques",
+      "description": "Master advanced soccer techniques to become a true champion.",
+      "steps": [
+        "Learn to curve shots around defenders",
+        "Master power control for different situations",
+        "Use spin to deceive goalkeepers",
+        "Practice timing for perfect shots"
+      ]
+    }
+  ],
+  "stadium": {
+    "features": [
+      {
+        "icon": "🏟️",
+        "text": "Professional Stadiums - Play in beautifully designed 3D stadiums with realistic atmosphere"
+      },
+      {
+        "icon": "🌍",
+        "text": "World Cup Venues - Experience iconic World Cup stadiums from around the globe"
+      },
+      {
+        "icon": "🎨",
+        "text": "Dynamic Environments - Enjoy changing weather and lighting conditions that affect gameplay"
+      },
+      {
+        "icon": "🎪",
+        "text": "Training Grounds - Practice your skills in dedicated training facilities with various setups"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "name": "Alex Johnson",
+      "text": "Amazing soccer game! The 3D graphics are incredible and the kicking mechanics feel so realistic. I love how challenging the goalkeepers are - it really tests your skills!"
+    },
+    {
+      "name": "Sarah Chen",
+      "text": "Perfect for soccer fans! The World Cup theme is fantastic and the gameplay is addictive. The different stadiums and challenges keep me coming back for more."
+    },
+    {
+      "name": "Mike Rodriguez",
+      "text": "Best soccer game I've played online. The 3D experience is immersive and the skill-based gameplay makes every goal feel rewarding. Highly recommend!"
+    },
+    {
+      "name": "Emma Wilson",
+      "text": "Great game for both casual and hardcore soccer players. The difficulty progression is well-balanced and the achievement system adds fun goals to work towards."
+    },
+    {
+      "name": "David Kim",
+      "text": "Incredible attention to detail in the soccer mechanics. The ball physics feel realistic and the goalkeeper AI provides a good challenge."
+    },
+    {
+      "name": "Lisa Thompson",
+      "text": "Addictive gameplay with smooth performance. The World Cup atmosphere is fantastic and the community features are excellent."
+    }
+  ],
+  "gameUpdates": [
+    {
+      "title": "New World Cup Stadiums Released",
+      "description": "Experience the thrill of playing in iconic World Cup stadiums with enhanced 3D graphics and realistic crowd atmosphere.",
+      "date": "January 15, 2025",
+      "fullContent": "We're excited to announce the release of our new World Cup stadium collection! This major update introduces five iconic stadiums from World Cup history, each with unique architectural details and atmospheric crowd sounds. The stadiums feature enhanced 3D graphics with realistic lighting, dynamic weather effects, and immersive crowd animations. New stadium-specific challenges have been added to test your skills in different environments. The update also includes improved ball physics and goalkeeper AI to provide an even more authentic soccer experience.",
+      "image": "pictures/image_wersion3.jpg"
+    },
+    {
+      "title": "Enhanced Kicking Mechanics",
+      "description": "Major improvements to ball control and kicking precision. New curve and spin mechanics for advanced players.",
+      "date": "June 8, 2025",
+      "fullContent": "This update focuses on revolutionizing the core kicking mechanics that make Super Kick 3D so engaging. We've implemented advanced ball physics with realistic curve and spin effects that respond to your input. New power control system allows for precise shot strength adjustment, while improved aiming mechanics provide better accuracy. Advanced players can now master techniques like the knuckleball, curved shots, and precision placement. The update also includes a new training mode with detailed tutorials to help players master these advanced techniques.",
+      "image": "pictures/new_img2.jpg"
+    },
+    {
+      "title": "Tournament Mode Expansion",
+      "description": "Introducing comprehensive tournament system with seasonal competitions, leaderboards, and special rewards for top players.",
+      "date": "January 22, 2025",
+      "fullContent": "We've expanded our tournament system with a comprehensive competitive mode that brings the excitement of World Cup competition to every player. The new tournament mode features seasonal competitions with themed challenges, global leaderboards, and special rewards for top performers. Players can now participate in daily, weekly, and monthly tournaments with different difficulty levels and unique prizes. The system includes detailed statistics tracking, achievement badges, and a ranking system that rewards consistent performance. This update also introduces team-based tournaments where players can form clubs and compete together.",
+      "image": "pictures/new_img3.jpg"
+    }
+  ],
+  "soccerNews": [
+    {
+      "title": "Behind the Scenes: Stadium Design Process",
+      "description": "Take a look at how we design and create the stunning 3D stadiums that bring the World Cup atmosphere to life.",
+      "date": "June 12, 2025",
+      "fullContent": "Creating the immersive stadiums for Super Kick 3D involves a complex process that combines architectural research with artistic vision. Our design team studies real World Cup stadiums, analyzing their unique features, crowd capacity, and atmospheric elements. We then create detailed 3D models with realistic textures, lighting systems, and dynamic crowd animations. Each stadium goes through multiple iterations where we test visual impact, performance optimization, and gameplay flow. The Maracanã stadium took over four months to perfect, with countless adjustments to lighting, crowd density, and architectural details. We also work closely with our audio team to create authentic stadium atmosphere with crowd chants, referee whistles, and ball sounds.",
+      "image": "pictures/new_img4.jpg"
+    },
+    {
+      "title": "Community Spotlight: Top Scorers",
+      "description": "Meet some of the most skilled players in our community and learn their strategies for mastering Super Kick 3D.",
+      "date": "January 8, 2025",
+      "fullContent": "This month we're highlighting three exceptional players who have consistently topped our leaderboards. GoalMachine has mastered the art of precision shooting, achieving perfect accuracy ratings on the most challenging levels. CurveMaster has revolutionized how players approach curved shots, creating tutorials that have helped thousands of players improve their technique. And TournamentChamp has dominated our competitive scene, winning multiple seasonal championships. We interviewed each player about their strategies, favorite stadiums, and tips for new players. Their insights have been invaluable in helping us understand what makes our game so engaging and how we can continue to improve the player experience.",
+      "image": "pictures/new_img5.jpg"
+    },
+    {
+      "title": "Development Update: Future Features",
+      "description": "Get a sneak peek at upcoming features and improvements planned for Super Kick 3D in the coming months.",
+      "date": "June 25, 2025",
+      "fullContent": "We're excited to share our development roadmap for the next six months! Q1 2025 will bring a comprehensive multiplayer system allowing players to compete against friends in real-time matches. We're also working on a career mode with narrative-driven progression and character development. The career mode will follow a rookie player's journey from local tournaments to World Cup glory. Q2 will introduce major visual upgrades including improved lighting systems, particle effects for celebrations, and more detailed player animations. We're also planning a mobile version with touch-optimized controls and cross-platform progression. Community feedback has been crucial in shaping these features, and we can't wait to see how players respond to these new additions.",
+      "image": "pictures/new_img.jpg"
+    }
+  ],
+  "contact": {
+    "email": "contact@domain.com",
+    "phone": "+61 3 9123 4567",
+    "address": "123 Flinders Street, Melbourne VIC 3000, Australia"
+  }
+}
